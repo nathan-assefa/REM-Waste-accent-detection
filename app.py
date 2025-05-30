@@ -60,9 +60,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-with open("style.css") as f:
-    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
 # --- Header ---
 st.title("🎙️ REMWaste Accent Analyzer AI")
 st.write("Analyze spoken English accents from a public video URL or MP4 file. Built for hiring insights.")
