@@ -10,8 +10,57 @@ import os
 import time
 
 # --- Styling ---
-style_path = os.path.join("static", "style.css")
-with open(style_path) as f:
+st.markdown(
+    """
+    <style>
+        .main {
+            background-color: #f7f9fc;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        .stButton > button {
+            background-color: #4CAF50;
+            color: white !important;
+            border: none;
+            border-radius: 5px;
+            padding: 0.5em 1em;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+        }
+
+        .stButton > button:hover {
+            background-color: #45a049;
+            color: white !important;
+            transform: scale(1.01);
+        }
+
+        .stButton > button:active {
+            background-color: #3e8e41;
+            color: white !important;
+            transform: scale(0.98);
+        }
+
+        .stButton > button:focus {
+            outline: none;
+            box-shadow: none;
+            color: white !important;
+        }
+
+        .stButton > button:disabled {
+            background-color: rgba(76, 175, 80, 0.4) !important;
+            color: rgba(255, 255, 255, 0.6) !important;
+            cursor: not-allowed !important;
+            filter: blur(0.3px);
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # --- Header ---
