@@ -2,7 +2,7 @@
 
 An AI-powered web application built for **REM Waste** to evaluate spoken English by detecting accents from video input. It accepts a public video URL (Loom or direct MP4), extracts the audio, and classifies the speaker's accent using a state-of-the-art deep learning model.
 
-![Work flow](https://drive.google.com/file/d/147lQlQL23N6zDeioXFdjXtZZwOxmENIO/view?usp=sharing)
+![Workflow](assets/simple_workflow.PNG)
 
 ---
 
