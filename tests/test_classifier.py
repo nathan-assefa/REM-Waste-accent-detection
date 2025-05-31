@@ -1,0 +1,1 @@
+# ----> Test for test_classifier function will be written here
