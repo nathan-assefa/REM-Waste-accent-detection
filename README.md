@@ -1,5 +1,7 @@
 # 🎙️ English Accent Classifier App
 
+You can check out the live demo here: http://100.24.20.115/. It's currently running on the server's IP address since a custom domain haven't been set up yet.
+
 ![Brand](assets/remwaste_chatbot.PNG)
 
 An AI-powered web application built for **REM Waste** to evaluate spoken English by detecting accents from video input. It accepts a public video URL (Loom or direct MP4), extracts the audio, and classifies the speaker's accent using a state-of-the-art deep learning model.
